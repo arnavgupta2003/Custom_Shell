@@ -1,9 +1,11 @@
+<H1 align = "center"> Custom Shell </H1>
+
 ## Introduction
 <p align="Left">
   -> A Custom shell written in C language, supporting four internal and 5 external library commands<br> with Multithreaded and Multiprocessor Options. 
   <br> -> Use of standard C libraries, including Linux system calls such as
 fork(),exec() family system calls and wait() family of system calls.
-  <br><br>
+  <br>
 </p>
 
 ## `Internal Commands Supported`
@@ -36,7 +38,6 @@ $> make -f MakeFile
        OR
 $> make
 ```
-
 ## Usage
 
 ```console
@@ -91,4 +92,4 @@ mkdir optional arguments:
 MIT © Arnav Gupta 2022<br/>
 Original Creator - [Arnav Gupta](https://github.com/arnavgupta2003)
 
-<br><br><br><br>
+<br>
