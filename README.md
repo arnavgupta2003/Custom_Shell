@@ -97,6 +97,8 @@ rm optional arguments:
   -f, --force           ignore nonexistent files and arguments, never prompt
   -v, --verbos          Explain what is being done
 ```
+<br>
+
 ```console
 mkdir optional arguments:
   -h, --help            show this help
