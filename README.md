@@ -86,5 +86,13 @@ mkdir optional arguments:
   -p, --parents         no error if existing, make parent directories as needed
   -v, --verbos          Explain what is being done
  ```
+## License
 
+MIT © Arnav Gupta 2022<br/>
+Original Creator - [Arnav Gupta](https://github.com/arnavgupta2003)
+
+## Contributors
+<a href = "https://github.com/Tanu-N-Prabhu/Python/graphs/contributors">
+  <img src = "https://contrib.rocks/image?repo = arnavgupta2003/Custom_Shell_1"/>
+</a>
 
