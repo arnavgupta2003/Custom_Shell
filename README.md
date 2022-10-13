@@ -52,37 +52,52 @@ Available commands.
       date
       rm
       mkdir
-
+```
 CST_Shell ASH (Version 1.1)
 
+```console
 cd optional arguments:
   -h, --help            show this help
   -v, --verbose         display information regarding changes
   -f,                   force changes
+```
+```console
 pwd optional arguments:
   -h, --help            show this help
   -L, --cwd             print the value of $PWD if it names the current working directory
   -P, --physical        print the physical directory, without any symbolic links
+```
+```console
 ls optional arguments:
   -h, --help            show this help
   -d, --directory       list directories themselves, not their contents
   -a, --all             do not ignore entries starting with .
+```
+```console
 echo optional arguments:
   -h, --help            show this help
   -n,                   do not output the trailing new line
   -v, --verbose         Describe each event as it occurs
+```
+```console
 cat optional arguments:
   -h, --help            show this help
   -E, --show-ends       display $ at end of each line
   -n, --number          number all output lines
+```
+```console
 date optional arguments:
   -h, --help            show this help
   -t, --show-time       display only time
   -d, --show-date       display only date
+```
+```console
 rm optional arguments:
   -h, --help            show this help
   -f, --force           ignore nonexistent files and arguments, never prompt
   -v, --verbos          Explain what is being done
+```
+```console
 mkdir optional arguments:
   -h, --help            show this help
   -p, --parents         no error if existing, make parent directories as needed
@@ -116,3 +131,8 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 <br>
+
+
+```console
+EOF
+```
