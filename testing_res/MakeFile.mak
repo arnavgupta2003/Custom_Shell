@@ -14,5 +14,5 @@ cr:
 	@echo "**Exiting Kernel** \n"
 clean:
 	@echo "**Removing Redundant Files** "
-	rm -f res_ls res_mkdir res_rm res_cat res_date te
+	rm -f res_ls res_mkdir res_rm res_cat res_date run
 	@echo "\n**Removed Redundant Files** \n"
