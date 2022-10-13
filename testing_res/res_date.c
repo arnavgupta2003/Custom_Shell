@@ -16,7 +16,7 @@ int main(int argc, char const *argv[])
 		printf("Usage: date [OPTION]\nDisplay the current time.\n");
 		printf("Allowed arguments.\n");
 		printf("\t -t, --show-time \t display only time \n");
-		printf("\t -d, --show-date \t\t display only date\n");   
+		printf("\t -d, --show-date \tdisplay only date\n");   
 		printf("\t -h, --help \t\t help \n");
 	}else if(strcmp(argv[1],"-t")==0 || strcmp(argv[1],"--show-time")==0){
 		time_t t = time(NULL);
