@@ -7,7 +7,7 @@
 fork() , exec() family system calls and wait() family of system calls.
   <br>
   -> Use of Linux system thread creation calls such as
-pthread_create(), pthread_join() , pthread_exit() , system() family system calls<br> and wait() family of system calls.
+pthread_create(), pthread_join() , pthread_exit() , system() family system calls and wait() family of system calls.
 </p>
 
 ## `Internal Commands Supported`
@@ -48,8 +48,8 @@ $ [COMMAND] -h
 Available commands.
       cd 
       pwd
-      ls
       echo
+      ls
       cat
       date
       rm
@@ -70,16 +70,16 @@ pwd optional arguments:
   -P, --physical        print the physical directory, without any symbolic links
 ```
 ```console
-ls optional arguments:
-  -h, --help            show this help
-  -d, --directory       list directories themselves, not their contents
-  -a, --all             do not ignore entries starting with .
-```
-```console
 echo optional arguments:
   -h, --help            show this help
   -n,                   do not output the trailing new line
   -v, --verbose         Describe each event as it occurs
+```
+```console
+ls optional arguments:
+  -h, --help            show this help
+  -d, --directory       list directories themselves, not their contents
+  -a, --all             do not ignore entries starting with .
 ```
 ```console
 cat optional arguments:
@@ -105,7 +105,7 @@ mkdir optional arguments:
   -p, --parents         no error if existing, make parent directories as needed
   -v, --verbos          Explain what is being done
 ```
-<br><br><br><br><br><br>
+<br><br><br>
 ## License
 
 MIT © Arnav Gupta 2022<br/>
