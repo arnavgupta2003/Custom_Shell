@@ -45,14 +45,14 @@ $> make
 ```console
 $ [COMMAND] -h
 Available commands.
-      cd 
-      pwd
-      echo
-      ls
-      cat
-      date
-      rm
-      mkdir
+      cd                     cd &t
+      pwd                    pwd &t
+      echo                   echo &t
+      ls                     ls &t
+      cat                    cat &t
+      date                   date &t
+      rm                     rm &t
+      mkdir                  mkdir &t
 ```
 <br>
 CST_Shell ASH (Version 1.1)
