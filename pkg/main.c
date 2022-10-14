@@ -3,6 +3,8 @@
 #include <string.h>
 #include <unistd.h>
 #include <pthread.h>
+#include <sys/types.h>
+#include <sys/wait.h>
 
 void kern();
 void changeDir();
@@ -11,6 +13,12 @@ void* cat_thread();
 void* date_thread();
 void* rm_thread();
 void* mkdir_thread();
+
+void ls_fork();
+void cat_fork(char *para1,char *para2);
+void date_fork(char *para1);
+void rm_fork(char *para1,char *para2);
+void mkdir_fork(char *para1,char *para2);
 struct args{
 	char* arg;
 	char* para1;
@@ -386,6 +394,9 @@ void kern(){
 			}
 		}
 		//End mkdir CMD
+		else{
+			printf("Invalid Command\n");
+		}
 	}
 }
 void changeDir(char *path){
@@ -454,7 +465,7 @@ void* ls_thread(void* in){
 	char* para1=((struct args*)in)->para1;
 	para1=strtok(para1,"\n");
 	
-	char* temp[255];
+	char temp[255];
 	strcpy(temp,"./res_ls ");  
 	strcat(temp,para1);
 	
@@ -504,7 +515,7 @@ void* cat_thread(void* in){
 	char* para2=((struct args*)in)->para2;
 	para2=strtok(para2,"\n");
 	
-	char* temp[255];
+	char temp[255];
 	strcpy(temp,"./res_cat ");  
 	strcat(temp,para1);//option
 	strcat(temp," ");
@@ -555,7 +566,7 @@ void* date_thread(void* in){
 	char* para1=((struct args*)in)->para1;
 	para1=strtok(para1,"\n");
 	
-	char* temp[255];
+	char temp[255];
 	strcpy(temp,"./res_date ");  
 	strcat(temp,para1);
 	
@@ -605,7 +616,7 @@ void* rm_thread(void* in){
 	char* para2=((struct args*)in)->para2;
 	para2=strtok(para2,"\n");
 	
-	char* temp[255];
+	char temp[255];
 	strcpy(temp,"./res_rm ");  
 	strcat(temp,para1);//option
 	strcat(temp," ");
@@ -657,7 +668,7 @@ void* mkdir_thread(void* in){
 	char* para2=((struct args*)in)->para2;
 	para2=strtok(para2,"\n");
 	
-	char* temp[255];
+	char temp[255];
 	strcpy(temp,"./res_mkdir ");  
 	strcat(temp,para1);//option
 	strcat(temp," ");
