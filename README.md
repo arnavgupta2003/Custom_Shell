@@ -2,10 +2,12 @@
 
 ## Introduction
 <p align="Left">
-  -> A Custom shell written in C language, supporting four internal and 5 external library commands<br> with Multithreaded and Multiprocessor Options. 
+  -> A Custom shell written in C language, supporting four internal and 5 external library commands with Multithreaded and Multiprocessor Options. 
   <br> -> Use of standard C libraries, including Linux system calls such as
-fork(),exec() family system calls and wait() family of system calls.
+fork() , exec() family system calls and wait() family of system calls.
   <br>
+  -> Use of Linux system thread creation calls such as
+pthread_create(), pthread_join() , pthread_exit() , system() family system calls<br> and wait() family of system calls.
 </p>
 
 ## `Internal Commands Supported`
@@ -28,7 +30,7 @@ fork(),exec() family system calls and wait() family of system calls.
 
 ```console
 # clone the repo
-$> git clone https://github.com/Custom_Shell_1.git
+$> git clone https://github.com/arnavgupta2003/Custom_Shell_1.git
 
 # change the working directory to src
 $> cd src
@@ -134,4 +136,4 @@ SOFTWARE.
 
 
 
-<p align=center> ---EOF -- </p>
+<p align=center> --- EOF --- </p>
