@@ -1,6 +1,5 @@
 <H1 align = "center"> Custom Shell </H1>
 
-## Introduction
 <p align="Left">
   -> A Custom shell written in C language, supporting four internal and 5 external library commands with Multithreaded and Multiprocessor Options. 
   <br> -> Use of standard C libraries, including Linux system calls such as
