@@ -97,13 +97,13 @@ date optional arguments:
 rm optional arguments:
   -h, --help            show this help
   -f, --force           ignore nonexistent files and arguments, never prompt
-  -v, --verbos          Explain what is being done
+  -v, --verbose          Explain what is being done
 ```
 ```console
 mkdir optional arguments:
   -h, --help            show this help
   -p, --parents         no error if existing, make parent directories as needed
-  -v, --verbos          Explain what is being done
+  -v, --verbose          Explain what is being done
 ```
 <br><br><br><br><br>
 ## License
